@@ -1,0 +1,5 @@
+# Compute paths
+get_filename_component(RooLagrangianMorphing_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
+set(RooLagrangianMorphing_INCLUDE_DIRS "@CONF_INCLUDE_DIRS@")
+set(RooLagrangianMorphing_LIBRARIES "@CONF_LIBRARIES@")
+set(RooLagrangianMorphing_LIBRARY_DIRS "@CONF_LIBRARY_DIRS@")
